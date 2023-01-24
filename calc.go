@@ -119,7 +119,7 @@ func (d Angle) Abs() Angle {
 }
 
 func (d Angle) Neg() Angle {
-	d.neg = true
+	d.neg = !d.neg
 	return d
 }
 
